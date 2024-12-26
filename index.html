@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Edit Profesional</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://files.catbox.moe/525xxw.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            animation: slideInDown 1s ease-in-out;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #333;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            animation: slideInLeft 1s ease-in-out;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            color: #333;
+        }
+        .services, .payments {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .service, .payment {
+            flex: 1 1 calc(50% - 30px);
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: slideInUp 1s ease-in-out;
+        }
+        .service img, .payment img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            animation: slideInUp 1s ease-in-out;
+        }
+        .socials {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .socials a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 1rem;
+        }
+        .socials img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        .socials img:hover {
+            transform: scale(1.1);
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jasa Edit GFX Anime</h1>
+        <p>Menyediakan Jasa Edit & Preset Terbatas</p>
+    </header>
+    <nav>
+        <a href="#services">Layanan</a>
+        <a href="#payments">Pembayaran</a>
+        <a href="#socials">Kontak</a>
+    </nav>
+    <div class="container">
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Layanan Kami</h2>
+            <div class="services">
+                <div class="service">
+                    <img src="https://files.catbox.moe/seceje.jpg" alt="Preset Elaina">
+                    <h3>Preset Elaina</h3>
+                    <p>Preset terbatas hingga 5 Januari 2025.</p>
+                    <a href="https://wa.me/6281331741729" target="_blank" class="button">Pesan</a>
+                </div>
+                <div class="service">
+                    <img src="https://files.catbox.moe/efbpxt.jpg" alt="Edit Video">
+                    <h3>Edit Video GFX</h3>
+                    <p>Request lagu & foto sesuai keinginan Anda.</p>
+                    <a href="https://wa.me/6281331741729" target="_blank" class="button">Pesan</a>
+                </div>
+            </div>
+        </section>
+        <!-- Payment Section -->
+        <section id="payments">
+            <h2>Metode Pembayaran</h2>
+            <div class="payments">
+                <div class="payment">
+                    <img src="https://files.catbox.moe/23m6el.jpg" alt="Dana">
+                    <h3>Dana</h3>
+                    <p>Pembayaran via Dana. Nomor: <strong>0</strong></p>
+                    <a href="https://wa.me/6281331741729" target="_blank" class="button">Pesan via WhatsApp</a>
+                </div>
+                <div class="payment">
+                    <img src="https://files.catbox.moe/xrzna4.jpg" alt="GoPay">
+                    <h3>GoPay</h3>
+                    <p>Pembayaran via GoPay. Nomor: <strong>0</strong></p>
+                    <a href="https://wa.me/6281331741729" target="_blank" class="button">Pesan via WhatsApp</a>
+                </div>
+                <div class="payment">
+                    <img src="https://files.catbox.moe/qhnhdr.jpg" alt="QRIS">
+                    <h3>QRIS</h3>
+                    <p>Pembayaran mudah dengan QRIS. Scan melalui aplikasi Anda.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Social Media Section -->
+        <section id="socials">
+            <h2>Kontak & Sosial Media</h2>
+            <div class="socials">
+                <a href="https://tiktok.com" target="_blank"><img src="https://files.catbox.moe/tiktok_icon.png" alt="TikTok"></a>
+                <a href="https://youtube.com" target="_blank"><img src="https://files.catbox.moe/youtube_icon.png" alt="YouTube"></a>
+                <a href="https://wa.me/6281331741729" target="_blank"><img src="https://files.catbox.moe/whatsapp_icon.png" alt="WhatsApp"></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Jasa Edit Profesional. All rights reserved.
+    </footer>
+</body>
+</html>
